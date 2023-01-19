@@ -14,7 +14,7 @@ function App() {
 const Wrapper = styled.div`
   display: flex;
   justify-content: center;
-  flex: 1;
+  flex: 1 1 auto;
   padding: 16px;
   background-color: #f1f1f1;
 `;
