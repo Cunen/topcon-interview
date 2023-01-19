@@ -2,11 +2,13 @@ import React from "react";
 import styled from "styled-components";
 import "./App.css";
 import Input from "./components/Input";
+import Navbar from "./components/Navbar";
 
 function App() {
   const [words] = React.useState<string[]>([]);
 
   return <Wrapper>
+    <Navbar />
     <Input words={words} />
   </Wrapper>;
 }
