@@ -20,7 +20,7 @@ function Input({ words }: Props) {
 const Wrapper = styled.div`
   width: 640px;
   height: 320px;
-  padding: 8px;
+  padding: 32px;
   background-color: white;
   display: flex;
 `;
@@ -35,7 +35,7 @@ const NoWords = styled.div`
   display: flex;
   height: fit-content;
   width: fit-content;
-  padding: 8px 16px 8px 16px;
+  padding: 8px 16px;
   align-items: center;
   justify-content: center;
   border-radius: 4px;
