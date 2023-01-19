@@ -6,9 +6,11 @@ import Input from "./components/Input";
 function App() {
   const [words] = React.useState<string[]>([]);
 
-  return <Wrapper>
-    <Input words={words} />
-  </Wrapper>;
+  return (
+    <Wrapper>
+      <Input words={words} />
+    </Wrapper>
+  );
 }
 
 const Wrapper = styled.div`
